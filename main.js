@@ -309,7 +309,7 @@ var PaymentDetailComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"jumbtron\">\n  <h1 class=\"display-4 text-center\">\n    Payment Detail Register\n  </h1>\n  <hr>\n  <div class=\"row\">\n    <div class=\"col-md-5\">\n      <app-payment-detail></app-payment-detail>\n    </div>\n    <div class=\"col-md-7\">\n      <app-payment-detail-list></app-payment-detail-list>\n    </div>\n  </div>\n</div>"
+module.exports = "<div class=\"jumbtron\">\n  <h1 class=\"display-4 text-center\">\n    Payment Detail Register\n  </h1>\n  <hr>\n  <div class=\"row\">\n    <div class=\"col-md-5\">\n      <app-payment-detail></app-payment-detail>\n    </div>\n    <div class=\"col-md-7\">\n      <!-- <app-payment-detail-list></app-payment-detail-list> -->\n    </div>\n  </div>\n</div>"
 
 /***/ }),
 
