@@ -380,7 +380,9 @@ var PaymentDetailService = /** @class */ (function () {
         var _this = this;
         this.http.get(this.rootURL + '/PaymentDetails')
             .toPromise()
-            .then(function (res) { return _this.list = res; });
+            .then(function (res) { if (res != null) {
+            _this.list = res;
+        } });
     };
     PaymentDetailService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
